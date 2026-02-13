@@ -7,7 +7,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv')
 
 # Título de la app
-st.header('Análisis de Vehículos Usados - Tu Nombre')
+st.header('Análisis de Vehículos Usados - Juan Carlos')
 
 # Botón 1: Construir histograma
 hist_button = st.button('Construir histograma')  # crear un botón
